@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Vector3
+comment0.text=\r\n\ 3D\ Vector\ class\ for\ storing\ and\ manipulating\ points\ in\ a\ 3D\ space.\r\n\ @author\ Matthew\ Corfiatis\r\n
+comment1.params=
+comment1.target=Vector3()
+comment2.params=x\ y\ z
+comment2.target=Vector3(float,\ float,\ float)
+comment2.text=\r\n\ Constructor\r\n\ @param\ x\ X\ axis\ position\r\n\ @param\ y\ Y\ axis\ position\r\n\ @param\ z\ Z\ axis\ position\r\n
+comment3.params=a\ b
+comment3.target=Vector3\ add(Vector3,\ Vector3)
+comment3.text=\r\n\ Adds\ two\ vectors\ together\r\n\ @param\ a\ Vector\ A\r\n\ @param\ b\ Vector\ B\r\n\ @return\ Output\ of\ vector\ calculation\r\n
+comment4.params=a\ b
+comment4.target=Vector3\ sub(Vector3,\ Vector3)
+comment4.text=\r\n\ Subtracts\ a\ vector\ from\ another\ vector\r\n\ @param\ a\ Vector\ A\r\n\ @param\ b\ Vector\ B\r\n\ @return\ Output\ of\ vector\ calculation\r\n
+comment5.params=a\ b
+comment5.target=Vector3\ mult(Vector3,\ Vector3)
+comment5.text=\r\n\ Multiplies\ two\ vectors\ together\r\n\ @param\ a\ Vector\ A\r\n\ @param\ b\ Vector\ B\r\n\ @return\ Output\ of\ vector\ calculation\r\n
+comment6.params=a\ b
+comment6.target=Vector3\ div(Vector3,\ Vector3)
+comment6.text=\r\n\ Divides\ a\ vector\ by\ another\ vector\r\n\ @param\ a\ Vector\ A\r\n\ @param\ b\ Vector\ B\r\n\ @return\ Output\ of\ vector\ calculation\r\n
+comment7.params=a\ b
+comment7.target=Vector3\ div(Vector3,\ float)
+comment7.text=\r\n\ Divides\ a\ vector\ by\ a\ scalar\ value\r\n\ @param\ a\ Vector\ A\r\n\ @param\ b\ Scalar\ float\ to\ divide\ by\r\n\ @return\ Output\ of\ vector\ calculation\r\n
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ @return\ vector\ in\ string\ format\ (x,\ y,\ z)\r\n
+numComments=9

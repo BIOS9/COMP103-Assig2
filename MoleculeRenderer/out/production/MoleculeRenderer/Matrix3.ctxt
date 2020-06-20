@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Matrix3
+comment0.text=\r\n\ 3D\ matrix\ class\ for\ storing\ and\ manipulating\ mathematical\ matrices\ in\ Java\r\n\ @author\ Matthew\ Corfiatis\r\n
+comment1.params=
+comment1.target=Matrix3()
+comment2.params=x1\ y1\ z1\ x2\ y2\ z2\ x3\ y3\ z3
+comment2.target=Matrix3(float,\ float,\ float,\ float,\ float,\ float,\ float,\ float,\ float)
+comment2.text=\r\n\ Constructor\ using\ floating\ point\ matrix\ values\r\n
+comment3.params=x1\ y1\ z1\ x2\ y2\ z2\ x3\ y3\ z3
+comment3.target=Matrix3(double,\ double,\ double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment3.text=\r\n\ Constructor\ using\ double\ precision\ floating\ point\ matrix\ values.\r\n\ Values\ converted\ to\ float\ internally.\r\n
+comment4.params=vec
+comment4.target=Vector3\ multiplyVector(Vector3)
+comment4.text=\r\n\ Multiply\ a\ vector\ by\ this\ matrix\r\n\ @param\ vec\ Vector3\ to\ multiply\r\n\ @return\ Output\ Vector3\ of\ the\ calculation\r\n
+comment5.params=a\ b
+comment5.target=Matrix3\ mult(Matrix3,\ Matrix3)
+comment5.text=\r\n\ Multiply\ two\ matrices\ together\ to\ combine\ linear\ transformations.\r\n\ @param\ a\ Matrix\ A\r\n\ @param\ b\ Matrix\ B\r\n\ @return\ Result\ of\ the\ matrix\ multiplication\r\n
+comment6.params=angle
+comment6.target=Matrix3\ xRotation(float)
+comment6.text=\r\n\ Generate\ a\ matrix\ for\ rotation\ in\ the\ X\ Euler\ axis\r\n\ @param\ angle\ Angle\ in\ radians\ to\ produce\ the\ matrix\ for\r\n\ @return\ The\ resulting\ rotation\ matrix\r\n
+comment7.params=angle
+comment7.target=Matrix3\ yRotation(float)
+comment7.text=\r\n\ Generate\ a\ matrix\ for\ rotation\ in\ the\ Y\ Euler\ axis\r\n\ @param\ angle\ Angle\ in\ radians\ to\ produce\ the\ matrix\ for\r\n\ @return\ The\ resulting\ rotation\ matrix\r\n
+comment8.params=angle
+comment8.target=Matrix3\ zRotation(float)
+comment8.text=\r\n\ Generate\ a\ matrix\ for\ rotation\ in\ the\ Z\ Euler\ axis\r\n\ @param\ angle\ Angle\ in\ radians\ to\ produce\ the\ matrix\ for\r\n\ @return\ The\ resulting\ rotation\ matrix\r\n
+numComments=9

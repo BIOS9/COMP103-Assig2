@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Graphics
+comment0.text=\r\n\ Stores\ information\ about\ current\ scene\ and\ performs\ calculations\ using\ that\ information.\r\n\ @author\ Matthew\ Corfiatis\r\n
+comment1.params=canvasWidth\ canvasHeight
+comment1.target=Graphics(float,\ float)
+comment1.text=\r\n\ Constructor\r\n\ Specify\ dimentions\ of\ canvas\r\n
+comment2.params=vect\ fov
+comment2.target=Vector2\ project2D(Vector3,\ float)
+comment2.text=\r\n\ Project\ the\ 3d\ points\ onto\ a\ 2d\ plane\ using\ weak\ perspective\ projection\r\n\ @param\ vect\ Vector\ to\ project\r\n\ @param\ fov\ Field\ of\ view\r\n
+numComments=3
